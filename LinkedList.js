@@ -1,6 +1,6 @@
 /** Class representing a Linked List */
 
-class LinkedList {
+module.exports = class LinkedList {
 
     constructor(value) {
       this._head = {value, next:null};
@@ -67,13 +67,13 @@ class LinkedList {
   }
 
 
-  const myLList = new LinkedList(1);
-  myLList.insert(2);
-  //console.log(myLList);
-  myLList.insert(3);
-  console.log(myLList);
-  myLList.removeTail();
-  console.log(myLList);
-  console.log(myLList.contains(2));
-  console.log(myLList.isHead(2));
-  console.log(myLList.isTail(2));
+//   const myLList = new LinkedList(1);
+//   myLList.insert(2);
+//   //console.log(myLList);
+//   myLList.insert(3);
+//   console.log(myLList);
+//   myLList.removeTail();
+//   console.log(myLList);
+//   console.log(myLList.contains(2));
+//   console.log(myLList.isHead(2));
+//   console.log(myLList.isTail(2));
